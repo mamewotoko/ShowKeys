@@ -60,7 +60,7 @@
         _wipeBefore = YES;
         [all appendString:@"CTRL+"];
     }
-    
+    //NSLog(@"Key pressed %d", [event keyCode]);
     switch ([event keyCode]) {
         case 36:
             _wipeAfter = YES;
@@ -113,6 +113,66 @@
             _wipeBefore = YES;
             _wipeAfter = YES;            
             [all appendString:@"⬆"];
+            break;
+        case 122:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F1"];
+            break;
+        case 120:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F2"];
+            break;
+        case 99:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F3"];
+            break;
+        case 118:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F4"];
+            break;
+        case 96:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F5"];
+            break;
+        case 97:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F6"];
+            break;
+        case 98:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F7"];
+            break;
+        case 100:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F8"];
+            break;
+        case 101:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F9"];
+            break;
+        case 109:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F10"];
+            break;
+        case 103:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F11"];
+            break;
+        case 111:
+            _wipeBefore = YES;
+            _wipeAfter = YES;
+            [all appendString:@"F12"];
             break;
         default:
             [all appendString:[event charactersIgnoringModifiers]];
