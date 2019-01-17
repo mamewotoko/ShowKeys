@@ -1,4 +1,4 @@
-# ShowKeys ![travis-ci](https://travis-ci.org/mamewotoko/ShowKeys.svg?branch=feature/function_keys)
+# ShowKeys [![Build Status](https://travis-ci.org/mamewotoko/ShowKeys.svg?branch=feature%2Ffunction_keys)](https://travis-ci.org/mamewotoko/ShowKeys)
 
 This is a simple OSX app to allow display of pressed keys.  It's basically just a semi-opaque window you can position anywhere and it will display the keys you press, as you press them.
 
