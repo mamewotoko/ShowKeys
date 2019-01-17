@@ -1,4 +1,3 @@
 language: objective-c
-xcode_project: ShowKeys.xcodeproj
-# xcode_scheme: ShowKeysTests # dummy
-xcode_destination: platform=macOS
+script:
+  - xcodebuild -project ShowKeys.xcodeproj -target ShowKeys build
