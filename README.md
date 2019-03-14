@@ -11,6 +11,7 @@ It's not very complete, but it is functional.  Pull requests and issues are very
     <a href="http://dropitvc.herokuapp.com/u/MjY0AitRCA"><img src="http://dropit.velvetcache.org.s3.amazonaws.com/jmhobbs/MjY1F5ItNw/Screen-Shot.png" alt="Demo" /></a>
   </video>
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9JWXrDFGw-Y/0.jpg)](https://www.youtube.com/watch?v=9JWXrDFGw-Y)
 
 ## Getting It To Work
 
